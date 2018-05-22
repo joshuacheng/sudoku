@@ -1,5 +1,3 @@
-package oldWay;
-
 import javax.swing.JFrame;
 
 public class SudokuMain {

@@ -1,4 +1,3 @@
-package oldWay;
 import java.io.*;
 import java.util.Arrays;
 import java.util.Scanner;
@@ -291,7 +290,7 @@ public class SudokuModel {
 			} catch (IOException e) {}
 			
 			for (int l = 0; l < 9; l++) {
-				shownNums[k][l] = new Integer(line.substring(l, l + 1));
+				shownNums[k][l] = Integer.valueOf(line.substring(l, l + 1));
 			}
 		}
 	}

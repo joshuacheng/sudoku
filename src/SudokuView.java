@@ -1,4 +1,3 @@
-package oldWay;
 import java.awt.BasicStroke;
 import java.awt.CardLayout;
 import java.awt.Color;
